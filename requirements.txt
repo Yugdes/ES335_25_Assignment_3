@@ -1,0 +1,7 @@
+streamlit
+torch
+torchvision
+numpy
+pandas
+Pillow
+pathlib
