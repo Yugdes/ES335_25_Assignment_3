@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Define base directory
-BASE_DIR = Path(r".\Dataset_1_SherlockHolmes")
+BASE_DIR = Path(r"./Dataset_1_SherlockHolmes")
 
 # Define MLP Model Architecture (3 hidden layers)
 class MLP(nn.Module):
@@ -461,4 +461,5 @@ st.markdown("""
 <div style='text-align: center; color: gray;'>
     <p>Sherlock Holmes MLP Text Generator | Trained on classic detective stories</p>
 </div>
+
 """, unsafe_allow_html=True)
