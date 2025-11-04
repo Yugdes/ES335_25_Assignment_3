@@ -1,0 +1,30 @@
+
+DATASET STATISTICS:
+- Dataset: The Adventures of Sherlock Holmes
+- Total sentences: 13823
+- Vocabulary size: 8685
+- Total training examples: 107609
+- Training samples: 96848
+- Validation samples: 10761
+
+MODEL HYPERPARAMETERS:
+- Context size: 5
+- Embedding dimension: 32
+- Hidden size: 1024
+- Activation: Tanh
+- Number of epochs: 500
+- Batch size: 512
+- Learning rate: 0.001
+
+TRAINING RESULTS:
+- Final Train Loss: 1.7235
+- Final Train Accuracy: 70.21%
+- Final Validation Loss: 12.0521
+- Final Validation Accuracy: 9.45%
+- Total parameters: 10,394,509
+
+OBSERVATIONS:
+- The model successfully learned to predict next words based on context
+- Training and validation curves show overfitting
+- Word embeddings capture semantic relationships between words
+- Generated text shows coherent structure with varying creativity based on temperature

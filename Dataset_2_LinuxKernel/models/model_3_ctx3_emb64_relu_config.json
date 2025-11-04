@@ -1,0 +1,12 @@
+{
+  "context_length": 3,
+  "embedding_dim": 64,
+  "activation": "relu",
+  "vocab_size": 100000,
+  "hidden_size": 1024,
+  "epochs": 200,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "final_val_loss": 32.54515445632423,
+  "final_val_accuracy": 19.450002632826074
+}

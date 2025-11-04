@@ -1,0 +1,12 @@
+{
+  "context_length": 3,
+  "embedding_dim": 64,
+  "activation": "tanh",
+  "vocab_size": 100000,
+  "hidden_size": 1024,
+  "epochs": 200,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "final_val_loss": 13.62195920304164,
+  "final_val_accuracy": 16.943552208941078
+}
