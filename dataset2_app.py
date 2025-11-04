@@ -12,7 +12,7 @@ import torch.nn as nn
 # -------------------------------
 # CONFIGURE PATHS
 # -------------------------------
-BASE_DIR = r"D:\Onedrive\OneDrive - iitgn.ac.in\Desktop\Task_1_ML_assignment_3\Dataset_2_LinuxKernel\models"
+BASE_DIR = r".\Dataset_2_LinuxKernel\models"
 
 # Model name mapping
 MODEL_OPTIONS = {

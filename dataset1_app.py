@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Define base directory
-BASE_DIR = Path(r"D:\Onedrive\OneDrive - iitgn.ac.in\Desktop\Task_1_ML_assignment_3\Dataset_1_SherlockHolmes")
+BASE_DIR = Path(r".\Dataset_1_SherlockHolmes")
 
 # Define MLP Model Architecture (3 hidden layers)
 class MLP(nn.Module):
