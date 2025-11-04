@@ -1,5 +1,7 @@
 ## Comparative Study: Sherlock Holmes (Natural Language) vs Linux Kernel (Structured Language)
-* Models were too large too push(faced https timeout error while pushing...tried pushing thrice, I can show you the .pt and .pth locally and run the streamlit app locally)
+Deployed Apps:
+1. Sherlock Holmes - [Sherlock Holmes Streamlit App](https://es33525assignment3-l5g2kjqbabbkm3yw5dg6je.streamlit.app/)
+2. Linux Kernel - [Linux Kernel Streamlit App](https://es33525assignment3-ytgpbc7ydssbpmejxrxb7q.streamlit.app/)
 ### **1. Dataset Characteristics**
 
 | Aspect                     | Sherlock Holmes (Category I)                                             | Linux Kernel (Category II)                                                       |
@@ -80,3 +82,4 @@ In contrast, structured code follows strict grammar and repetitive constructs, w
 Natural language is **harder to learn** due to its semantic ambiguity and long-range dependencies, demanding higher model capacity and context awareness.
 Structured code, though more repetitive and rule-bound, still challenges models in capturing **logical dependencies** rather than surface syntax.
 Overall, MLPs with small context windows can mimic syntax but struggle with deeper understanding in both domains — highlighting the need for sequence-aware architectures (like RNNs or Transformers) for meaningful text generation.
+
