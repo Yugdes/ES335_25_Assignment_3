@@ -12,7 +12,7 @@ import torch.nn as nn
 # -------------------------------
 # CONFIGURE PATHS
 # -------------------------------
-BASE_DIR = r".\Dataset_2_LinuxKernel\models"
+BASE_DIR = r"./Dataset_2_LinuxKernel/models"
 
 # Model name mapping
 MODEL_OPTIONS = {
@@ -193,3 +193,4 @@ if st.button("Generate Next Words"):
         st.write(result)
 
 st.caption("Tip: Lower temperature makes output more deterministic; higher values make it more random.")
+
